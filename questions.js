@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "Regardless of your opinion on billionaires, Mark Cuban is objectively a good person.",
+        "question": "Regardless of your stance on billionaires, Mark Cuban is objectively a good person.",
         "effect": {
             "spt": 10,
             "pol": 0,
@@ -129,7 +129,7 @@ questions = [
         "question": "The Republican Party is inherently opposed to Mark Cuban's goals and ambitions.",
         "effect": {
             "spt": 0,
-            "pol": -10,
+            "pol": 10,
             "govt": 0,
             "scty": 0
         }
@@ -162,16 +162,25 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "I would dislike for Mark Cuban to be more active in the Democratic Party.",
         "effect": {
             "spt": 0,
-            "pol": 10,
-            "govt": 0,
+            "pol": -10,
+            "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Mark Cuban should publicly apologize to Donald Trump.",
+        "effect": {
+            "spt": 0,
+            "pol": -10,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "I don't want Mark Cuban's progressive views muddying up politics.",
         "effect": {
             "spt": 0,
             "pol": -10,
@@ -180,75 +189,66 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "I don't want Mark Cuban involved in politics at all.",
         "effect": {
             "spt": 0,
-            "pol": 10,
+            "pol": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Mark Cuban can only get things done if he rejects politics and sticks to business.",
+        "effect": {
+            "spt": 0,
+            "pol": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Mark Cuban would be a better president than any of the current contenders.",
+        "effect": {
+            "spt": 0,
+            "pol": 0,
             "govt": 10,
             "scty": 0
         }
     },
     {
-        "question": "International aid is a waste of money.",
-        "effect": {
-            "spt": -5,
-            "pol": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My nation is great.",
+        "question": "Mark Cuban should abandon politics and be far more reserved in all his pursuits.",
         "effect": {
             "spt": 0,
-            "pol": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Research should be conducted on an international scale.",
-        "effect": {
-            "spt": 0,
-            "pol": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Governments should be accountable to the international community.",
-        "effect": {
-            "spt": 0,
-            "pol": 10,
-            "govt": 5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
-        "effect": {
-            "spt": 0,
-            "pol": 5,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My religious values should be spread as much as possible.",
-        "effect": {
-            "spt": 0,
-            "pol": -5,
+            "pol": 0,
             "govt": -10,
             "scty": -10
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Whatever his politics views may be, Mark Cuban should not express them.",
         "effect": {
             "spt": 0,
-            "pol": -10,
-            "govt": -5,
+            "pol": 0,
+            "govt": -10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I would unironically vote for Mark Cuban if he was my party's nominee.",
+        "effect": {
+            "spt": 0,
+            "pol": 0,
+            "govt": 10,
             "scty": 0
+        }
+    },
+    {
+        "question": "Fiery social justice should be a top priority for Mark Cuban.",
+        "effect": {
+            "spt": 0,
+            "pol": 5,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
@@ -612,4 +612,5 @@ questions = [
         }
     }
 ];
+
 
